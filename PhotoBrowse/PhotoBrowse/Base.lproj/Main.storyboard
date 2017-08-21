@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="22U-69-5rK">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="x9f-ed-Dny"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3IE-Qv-8pt"/>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="3IE-Qv-8pt" secondAttribute="trailing" id="5c4-B8-0Ks"/>
+                            <constraint firstItem="22U-69-5rK" firstAttribute="top" secondItem="3IE-Qv-8pt" secondAttribute="bottom" id="NRn-iq-trc"/>
+                            <constraint firstAttribute="trailing" secondItem="22U-69-5rK" secondAttribute="trailing" id="SIS-ya-yWr"/>
+                            <constraint firstItem="22U-69-5rK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UFm-aQ-e70"/>
+                            <constraint firstItem="3IE-Qv-8pt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ugo-d2-TIR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="22U-69-5rK" secondAttribute="bottom" constant="200" id="a2b-6h-LWs"/>
+                            <constraint firstItem="3IE-Qv-8pt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ieY-bg-t4g"/>
+                            <constraint firstItem="22U-69-5rK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qlZ-ai-EKs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="showImageView" destination="3IE-Qv-8pt" id="3Ce-bn-llV"/>
+                        <outlet property="tableViewArea" destination="22U-69-5rK" id="Lcj-FK-7dW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

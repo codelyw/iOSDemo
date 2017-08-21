@@ -1,0 +1,16 @@
+PODS:
+  - FLEX (2.4.0)
+  - Masonry (1.0.2)
+  - ViewUtils (1.1.2)
+
+DEPENDENCIES:
+  - FLEX (~> 2.0)
+  - Masonry
+  - ViewUtils (~> 1.1.2)
+
+SPEC CHECKSUMS:
+  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  ViewUtils: 68e42c708a4b3912e39691cef5080282dc5013fb
+
+COCOAPODS: 0.39.0
